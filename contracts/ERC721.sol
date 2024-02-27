@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MyToken is ERC721, Ownable {
     constructor(address initialOwner)
-        ERC721("MyToken", "MTK")
+        ERC721("IjayToken", "IJTK")
         Ownable(initialOwner)
     {}
 
