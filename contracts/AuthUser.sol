@@ -11,4 +11,5 @@ contract Authentication {
     function isAuthenticated(address user) public view returns (bool) {
         return authenticatedUsers[user];
     }
+    
 }

@@ -8,6 +8,7 @@ contract NFTFactory is ERC721 {
     uint256 private tokenId;
 
     constructor() ERC721("DecentralizedSocialMedia", "DSocial") {}
+    
 
     function mintNFT(address recipient, string memory tokenURI) public returns (uint256) {
         tokenId++;

@@ -19,10 +19,11 @@ contract CommunityContent {
     }
 
     struct Comment {
-    uint256 id;
-    address author;
-    string text;
-    uint256 timestamp;
+        uint256 id;
+        address author;
+        string text;
+        uint256 timestamp;
+
     }
 
     // Example: Mapping for communities and content
